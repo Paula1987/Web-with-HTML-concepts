@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+<title>My Notes</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="flexbox.css">
+<link href="https://fonts.googleapis.com/css2?family=Tangerine" rel="stylesheet">
+<style>
+    body {
+        font-family:"Tangerine";
+        font-size: 24pt;
+    }
+</style>
+    </head>
+    <body>
+        
+<h1><strong><u>
+    Palita's HTML notes</u>  
+</strong></h1>
+
+<h2><u>General information</u></h2>
+<p>The web is written in <Strong>html</Strong> which is a code language</p>
+<p>Whenever you want to see a web page the browser sends a request to the server with 
+    <mark>http</mark> <em>(which stands for hypertext transfer protocol)</em>.<br> 
+    In this way the server sends the information of the web page in fragments of html language.</p>
+    <p>Whenever you're disinging a web page the name of the archive should be .html in order to be read in a browser</p>
+   
+<h3><u>HTML meaning</u></h3>    
+<P>HTML stand for hypertext markup language.</P>
+<p><mark>Hypertex:</mark>is text that can have links or references.</p>
+   <p>
+       <mark>Markup:</mark> is the part of the <em> html</em> that gives character to the text so that it won't be plain.
+   </p>
+
+   <h3><u>Things to keep in mind</u></h3>
+<p><Mark>Syntax:</Mark>Grammar rules of language</p>
+<p><mark>Formalism:</mark>Computer are literal, so be accurated while writing cause they don't correct mistakes or interpret words.</p>
+<p><mark>Nesting:</mark>some pieces of code go inside another.</p>
+<div><em><strong>Important fact: you can use a code inside another but you have to close them in the correct order, otherwise it won't work.</strong></em></div>
+<p>There's a lot of help! Such as documentation, search browsers, forums, so use it, do research</p>
+
+<h3><u>Elements</u></h3>
+
+<p>Tags elements are commands that are use in the coding so that you can give some shape or structure to the text.</p>
+<p>To use them you have to put the correct command between <a href= "https:https://en.wikipedia.org/wiki/Bracket" target= "_blank">angle brakets</a> to start, this is called opening tag and then,<br>
+   to finish the command, angle brackets with a bar in the middle and the command behind the bar, this is called closing tag.</p>
+<p>Some examples of commands are:</p>
+    <ul>
+        <li> u = <u>underline</u>
+        <li> p = paragraph
+        <li> sub = <sub>subscript</sub>
+        <li> sup = <sup>superscript</sup>
+        <li> mark = <mark>to highlight</mark>
+        <li> em = <em>emphasis (italics)</em>
+        <li> strong = <strong>boldface</strong>
+    </ul>
+
+
+    <h3><u>Void elements or empty elements</u></h3>
+
+<p>Are tags that affect a text without affecting any word and because of this they don't need a closing tag.<br>
+For example: br<em>(break)</em> between angle brackets or img <em>(image)</em> between angle brackets.</p>
+
+<h3><u>Types of elements</u></h3>
+
+<p>The elements are classify into two types: </p>
+<div class="containers">
+<ol> 
+    <div class="boxhtml">
+    <li><strong>Block elementes</strong>
+        
+            <ul><li>p = paragraph</li>
+                <li>ol,ul = lists</li>
+                <li>h1,h2 = headlines</li>
+                <li>video = video player</li>
+                <li>div = generic block</li>
+                <li>table = table element</li>
+            </ul>
+    </div> 
+    <div class="boxcss">  
+    <li><strong>Inline elements</strong>
+        
+            <ul><li>br = line break</li>
+                <li>em, strong = emphasis</li>
+                <li>mark = highligthing</li>
+                <li>a = hypertext link</li>
+                <li>img = image</li>
+                <li>span = generic inline</li>
+            </ul>  
+    </li>
+</div>
+</ol>
+</div>
+<p><em>Bare in mind that for usind these elements you shuold put them betwwen angle brackets.</em></p>
+
+<h3><u>Lists</u></h3>
+
+<p>When you want to do a list there are 2 types of elements you can use</p>
+    <ol>
+       <li>ol = ordered list<em>(which use numbres)</em> 
+        <li>ul = unorder list <em>(which use bullets)</em>
+        </ol>
+       <p> It's important that whenever you use them you use a closing tag.</p>
+<p>There's a very important element that's only used inside the lists <mark>"li"</mark>,
+   these element has to be written in fornt of each item on the list, 
+   <br>but it doesn't need to have a closing tag, although you can put one.<br>
+   This is because <mark>"li"</mark> can only be used inside a list and so the browser assume that whenever another li element appear it has to became another point in the list.<br>
+   The same happens to the <mark>"p"</mark> element which doesn't need a closing tag, but is recommended that you put it though.
+<br><em>It's important that this does not apply to the ol or ul elements these are elemtents that need to be closed.</em></p>
+
+<h3><u>The web addresses</u></h3>
+
+<p>The web addresses are the <strong>URL.</strong></p>
+<ul>
+    <li><p style= "color:red;">The "U" stands for Uniform = Standarized</p></li>
+    <li><p style= "color:blue;">The "R" stands for  Resource = a file or another data object</p></li>
+    <li><p style= "color:green;">The "L" stand for <em>Locator</em> = address for finding things</p></li>
+</ul>
+<p>A great way of doing code research is in this page <a href = "https://developer.mozilla.org">developer.mozilla.org</a></p>
+
+<h3><u>Images</u></h3>
+
+<p>To put an image you have to use:
+   img src="https:the URL of the web.com" alt= "file name" between angle brackets.</p>
+
+   For example:
+   <img src="http://placebear.com/400/300" alt="bear">
+
+   <h3><strong><u>Documents</u></strong></h3>
+   
+   <p>An html document has two parts the <em>head</em> and the <em>body.</em></p>
+
+       <ol>
+       <li>Head: Is where we put centain pieces of important information about the document.<br>
+           <ul>
+               <li>Title: It tells the browser what to put on the tab where it displays the document.</li>
+               <li>Style: These gives the font and the color to the text.</li>
+               <li>Script: These are the programs that run in the browser.</li>
+               <li>Html lang: This is the language in which is written the page, such us en for english or fr for french.</li>
+               <li>Meta name: This is the metadata for search for search engines.</li>
+            </ul>
+        <br>
+        <li>Body: Is where the contents goes.
+            <ul><li>p = paragraph</li>
+                <li>img = images</li>
+                <li>ol, ul = lists</li>
+                <li>h1 to h6 = headings</li>
+                <li>a = links</li>
+            </ul>
+       </ol>
+   </body>
+   </html>
